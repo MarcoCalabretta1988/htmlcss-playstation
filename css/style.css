@@ -1,0 +1,62 @@
+
+
+/* ROOT */
+
+:root{
+    --p-blue: #
+}
+
+/* GENERAL */
+
+
+
+/* UTILITY */
+
+.v-b{
+    background-color: blue;
+    border: 1px dashed black;
+}
+
+.v-r{
+background-color: red;
+border: 1px dashed orange;
+}
+
+.v-g{
+    background-color:green;
+    border: 1px dashed orange;
+    }
+
+.bor-w{
+    border: 2px dashed white;
+}
+
+.bor-y{
+    border: 1px solid yellow;
+}
+
+
+/* NAV BAR */
+
+#main-nav .main-nav-top{
+    height: 35px;
+}
+
+#main-nav .main-nav-bottom{
+    height: 65px;
+}
+
+/* HEADER */
+
+header{
+    border: 1px dashed forestgreen;
+}
+
+#main-nav{
+    height: 100px;
+}
+
+.jumbotron-top{
+    height: 500px;
+}
+
