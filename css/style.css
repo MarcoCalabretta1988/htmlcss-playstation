@@ -51,15 +51,13 @@ section{
 
 /* HEADER */
 
-header{
-    border: 1px dashed forestgreen;
-}
-
-#main-nav{
-    height: 100px;
-}
 
 .jumbotron-top{
     height: 500px;
 }
 
+/* SECTION NEW EXIT */
+
+.new-exit-header{
+    height: 400px;
+}
