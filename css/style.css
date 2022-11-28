@@ -62,8 +62,6 @@ section{
 
 /* NAV BAR */
 
-
-
 #main-nav .main-nav-top{
     height: 35px;
 }
@@ -92,11 +90,18 @@ section{
 
 /* HEADER */
 
+/* JUMBOTRONE */
 
 .jumbotron-top{
     height: 500px;
+    background-image: url("../img/jumbo-bg.png");
+    background-size: cover;
+    background-position:center;
 }
 
+.jumbotron-top .col button{
+    background-color: var(--p-orange);
+}
 /* SECTION NEW EXIT */
 
 .new-exit-header{
