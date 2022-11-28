@@ -3,12 +3,32 @@
 /* ROOT */
 
 :root{
-    --p-blue: #
+    --p-grey: #262626;
+    --p-orange:#e33a14;
+    --p-blue: #0545f7;
 }
 
 /* GENERAL */
 
+img{
+    max-width: 100%;
+    display: inline-block;
+}
 
+a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+button{
+    padding:5px 15px;
+    color: #fff;
+    border-radius: 25px;
+    border-style: none;
+    background-color:var(--p-blue);
+    font-size: 20px;
+}
 
 /* UTILITY */
 
@@ -42,12 +62,32 @@ section{
 
 /* NAV BAR */
 
+
+
 #main-nav .main-nav-top{
     height: 35px;
 }
 
+#logo-sony{
+  height: 100%;
+  width: 80px;
+}
+
 #main-nav .main-nav-bottom{
     height: 65px;
+}
+
+.h-menu-frame{
+    border-color: rgb(92, 92, 92);
+}
+
+#main-nav li .fa-angle-down{
+    color: grey;
+    cursor:pointer;
+}
+
+#main-nav li button{
+    background-color: var(--p-grey);
 }
 
 /* HEADER */
