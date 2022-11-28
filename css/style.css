@@ -37,6 +37,7 @@ border: 1px dashed orange;
 
 section{
     margin: 20px 0;
+    border: 1px solid black;
 }
 
 /* NAV BAR */
