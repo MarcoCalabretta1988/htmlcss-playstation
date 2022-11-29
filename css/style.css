@@ -188,6 +188,13 @@ border-bottom:1px solid #1945be;
     opacity: 1;
 }
 
+.collapse img:hover{
+    border: 1px solid grey;
+}
+
+.collapse-nav li:hover a{
+    color: var(--p-blue);
+}
 
 /* ANIMATION */
 
