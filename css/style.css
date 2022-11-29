@@ -169,8 +169,11 @@ button:hover{
 
 
 .jumbotron-bottom img:hover{
-   
-   animation: bouncing 5s 5s;
+    position: absolute;
+    left:0;
+    bottom:0;
+    cursor: pointer;
+   animation: bouncing 0.8s linear  infinite alternate-reverse;
 }
 
 
@@ -187,3 +190,14 @@ border-bottom:1px solid #1945be;
 
 
 /* ANIMATION */
+
+@keyframes bouncing{
+    from{
+        bottom:0;
+        left:0;
+    }
+    to{
+        bottom:20px;
+        left:0;
+    }
+}
