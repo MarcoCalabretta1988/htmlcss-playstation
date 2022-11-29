@@ -6,6 +6,7 @@
     --p-grey: #262626;
     --p-orange:#e33a14;
     --p-blue: #0545f7;
+    --light-grey:rgb(92, 92, 92);
 }
 
 /* GENERAL */
@@ -27,10 +28,24 @@ button{
     border-radius: 25px;
     border-style: none;
     background-color:var(--p-blue);
-    font-size: 20px;
+    font-size: 16px;
 }
 
 /* UTILITY */
+
+.jumbotron{
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+.txt-grey{
+    color: var(--light-grey);
+}
+
+.txt-blue{
+    color: var(--p-blue);
+}
 
 .v-b{
     background-color: blue;
@@ -55,10 +70,6 @@ border: 1px dashed orange;
     border: 1px solid yellow;
 }
 
-section{
-    margin: 20px 0;
-    border: 1px solid black;
-}
 
 /* NAV BAR */
 
@@ -90,18 +101,18 @@ section{
 
 /* HEADER */
 
-/* JUMBOTRONE */
+/* JUMBOTRON */
 
-.jumbotron-top{
-    height: 500px;
+
+
+#main-jumbotron .jumbotron-top{
+    height: 550px;
     background-image: url("../img/jumbo-bg.png");
-    background-size: cover;
-    background-position:center;
+    
 }
 
 .jumbotron-top .col button{
     background-color: var(--p-orange);
-    font-size: 16px;
     font-weight: 600;
 }
 
