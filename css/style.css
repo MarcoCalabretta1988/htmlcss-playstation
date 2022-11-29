@@ -101,7 +101,11 @@ section{
 
 .jumbotron-top .col button{
     background-color: var(--p-orange);
+    font-size: 16px;
+    font-weight: 600;
 }
+
+
 /* SECTION NEW EXIT */
 
 .new-exit-header{
