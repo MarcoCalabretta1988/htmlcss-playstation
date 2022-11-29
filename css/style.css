@@ -6,7 +6,7 @@
     --p-grey: #262626;
     --p-orange:#e33a14;
     --p-blue: #0545f7;
-    --light-grey:rgb(92, 92, 92);
+    --light-grey:rgb(167, 164, 164);
 }
 
 /* GENERAL */
@@ -49,6 +49,10 @@ button{
 
 .bg-grey{
     background-color: var(--p-grey);
+}
+
+.bg-lightgrey{
+    background-color: var(--light-grey);
 }
 
 .v-b{
