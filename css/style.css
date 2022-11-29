@@ -136,3 +136,23 @@ border: 1px dashed orange;
     height: 550px;
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
+
+/* FOOTER */
+
+.globe{
+    height: 100%;
+    width: 20px;
+}
+
+footer a{
+    color:#fff;
+    font-weight: 500;
+}
+
+footer li{
+    padding: 5px 0;
+}
+
+.logo-footer{
+    width: 100px;
+}
